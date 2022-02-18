@@ -1,0 +1,8 @@
+// disable dan enable rule mikrotik berdasarkan comment implementasi bisa di sesuaikan berdasarkan kebutuhan !!!
+
+-- enable
+/ip firewall nat enable [/ip firewall nat find comment="rDNS"] 
+
+-- disabele
+/ip firewall nat disable  [/ip firewall nat find comment="rDNS"]
+
